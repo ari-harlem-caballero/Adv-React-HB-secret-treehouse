@@ -37,14 +37,14 @@ export default function Login() {
         className={styles.loginForm}
         onChange={handleFormChange}>
 
-        <label>Email</label>
+        <label for="email">Email</label>
         <input
           id="email"
           name="email"
           type="email"
           value={formState.email}
         />{' '}
-        <label>Password</label>
+        <label for="password">Password</label>
         <input
           id="password"
           name="password"
